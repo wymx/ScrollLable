@@ -15,6 +15,7 @@
 		B62A6F4A1DA92C4B008D408A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62A6F481DA92C4B008D408A /* LaunchScreen.storyboard */; };
 		B62A6F551DA92C4B008D408A /* ScrollLableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62A6F541DA92C4B008D408A /* ScrollLableTests.m */; };
 		B62A6F601DA92C4B008D408A /* ScrollLableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62A6F5F1DA92C4B008D408A /* ScrollLableUITests.m */; };
+		B62A6F6F1DA92C7D008D408A /* ScrollLable.m in Sources */ = {isa = PBXBuildFile; fileRef = B62A6F6E1DA92C7D008D408A /* ScrollLable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B62A6F5B1DA92C4B008D408A /* ScrollLableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollLableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62A6F5F1DA92C4B008D408A /* ScrollLableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollLableUITests.m; sourceTree = "<group>"; };
 		B62A6F611DA92C4B008D408A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62A6F6D1DA92C7D008D408A /* ScrollLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollLable.h; sourceTree = "<group>"; };
+		B62A6F6E1DA92C7D008D408A /* ScrollLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollLable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		B62A6F391DA92C4B008D408A /* ScrollLable */ = {
 			isa = PBXGroup;
 			children = (
+				B62A6F6D1DA92C7D008D408A /* ScrollLable.h */,
+				B62A6F6E1DA92C7D008D408A /* ScrollLable.m */,
 				B62A6F3D1DA92C4B008D408A /* AppDelegate.h */,
 				B62A6F3E1DA92C4B008D408A /* AppDelegate.m */,
 				B62A6F401DA92C4B008D408A /* ViewController.h */,
@@ -276,6 +281,7 @@
 				B62A6F421DA92C4B008D408A /* ViewController.m in Sources */,
 				B62A6F3F1DA92C4B008D408A /* AppDelegate.m in Sources */,
 				B62A6F3C1DA92C4B008D408A /* main.m in Sources */,
+				B62A6F6F1DA92C7D008D408A /* ScrollLable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
